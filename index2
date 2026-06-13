@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lar da Terceira Idade Padre Longino</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#6a1b9a; color:white; padding:20px; text-align:center; }
+    nav { background:#9c27b0; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+    section { padding:40px; }
+    h2 { color:#6a1b9a; }
+    footer { background:#6a1b9a; color:white; text-align:center; padding:20px; }
+    img { max-width:100%; height:auto; border-radius:8px; margin:10px 0; }
+    .galeria { display:flex; flex-wrap:wrap; gap:10px; }
+    .galeria img { width:30%; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lar da Terceira Idade Padre Longino</h1>
+  <p>Amor, cuidado e dignidade para nossos idosos</p>
+</header>
+
+<nav>
+  <a href="#historia">História</a>
+  <a href="#servicos">Serviços</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#transparencia">Transparência</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="historia">
+  <h2>História</h2>
+  <p>Fundado em Mogi Guaçu, o Lar Padre Longino nasceu com a missão de oferecer acolhimento e dignidade aos idosos da região.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Old_people_home.jpg" alt="Foto ilustrativa de lar de idosos">
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+  <ul>
+    <li>Hospedagem de longa e curta duração</li>
+    <li>Enfermagem 24h</li>
+    <li>Acompanhamento geriátrico e nutricional</li>
+    <li>Atividades terapêuticas (musicoterapia, terapia ocupacional, lazer)</li>
+    <li>Hotelaria (limpeza, lavanderia, refeições balanceadas)</li>
+  </ul>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Nursing_home_activity.jpg" alt="Atividades com idosos">
+</section>
+
+<section id="galeria">
+  <h2>Galeria de Fotos</h2>
+  <div class="galeria">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Elderly_people_smiling.jpg" alt="Idosos sorrindo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Elderly_care_activity.jpg" alt="Atividades recreativas">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Nursing_home_facility.jpg" alt="Instalações ilustrativas">
+  </div>
+</section>
+
+<section id="transparencia">
+  <h2>Transparência</h2>
+  <p>Nosso compromisso é com a clareza e responsabilidade. Confira nossos relatórios anuais:</p>
+  <ul>
+    <li><a href="https://exemplo.com/relatorio2025.pdf" target="_blank">Relatório 2025</a></li>
+    <li><a href="https://exemplo.com/relatorio2024.pdf" target="_blank">Relatório 2024</a></li>
+  </ul>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Financial_report.jpg" alt="Relatório financeiro ilustrativo">
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Telefone: <a href="tel:+551938610782">(19) 3861-0782</a></p>
+  <p>Email: <a href="mailto:larpadrelongino@ig.com.br">larpadrelongino@ig.com.br</a></p>
